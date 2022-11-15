@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+}
+ol{
+    width: 30vw;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    list-style-type: lower-alpha; /*Este pone la letra minuscula*/
+    background-color: yellow;
+    border: 1px solid blue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px green;
+}
+
+li{
+    color: red;
+}
+
+li:nth-child(1){
+    text-decoration: overline;
+    color: blue;
+}
+li:first-child::first-letter,li:last-child::first-letter{
+    font-size: xx-large;
+}
+
+div{
+    width: 100vw;/*Para el width, utilizar vw*/
+    height: 100vh;/*Para e height, utilizar vh*/
+    background-image: url("https://www.nationalgeographic.com.es/medio/2022/06/13/shooting-star_2d76ca91_1280x853.jpg");
+    background-size: cover;
+    filter: blur(5px);
+}

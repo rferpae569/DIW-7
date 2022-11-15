@@ -1,0 +1,19 @@
+body{
+    font-family: "Arial narrow";
+    color: blue;
+}
+
+table{
+    width: 100%;
+    border: 0.4em solid red;
+}
+
+table tr td ol{
+    list-style-position: inside;
+    list-style-type:circle ;
+}
+
+table tr td ul{
+    list-style-position: outside;
+   list-style-type: square;
+}

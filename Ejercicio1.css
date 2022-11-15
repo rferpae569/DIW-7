@@ -1,0 +1,55 @@
+.contenedor1{
+    border: 3px solid red;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+.contenedor1 a:link{
+    color: blue;
+    font-weight: normal;
+}
+
+.contenedor1 a:hover{
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contenedor1 a:visited{
+    color: orange;
+    font-weight: lighter;
+}
+
+.contenedor1 a:active{
+    color: pink;
+    font-weight: 300;
+    letter-spacing: 0;
+}
+
+.contenedor2{
+    border: 5px double green;
+    background-color: yellowgreen;
+    border-radius: 20px;
+}
+
+.contenedor2 a:link{
+    color: brown;
+    font-weight: normal;
+}
+
+.contenedor2 a:hover{
+    color: chocolate;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contenedor2 a:visited{
+    color: yellow;
+    font-weight: lighter;
+}
+
+.contenedor2 a:active{
+    color: gray;
+    font-weight: 300;
+    letter-spacing: 0;
+}

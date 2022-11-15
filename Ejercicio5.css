@@ -1,0 +1,11 @@
+label, input{
+    display: block;
+    margin: 0.3rem;
+    margin-left: 0.25rem;
+    width: 10rem;
+ }
+
+input:focus{
+    background-color: yellow;
+    color: blue;
+}
